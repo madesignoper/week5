@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+header > a {
+    float : left;
+}
+
+header > p {
+    display: inline;
+    margin: 0;
+}
+
+header > button {
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    border: 1px solid #fafafa;
+    margin-right: 56px
+}
+
+main {
+    padding-top: 100px;
+}
+
+aside {
+    position: fixed;
+    float: left;
+    width: 200px;
+    height: 100%;
+    line-height: 160%;
+}
+
+aside ul {
+    padding-right : 24px;
+}
+
+aside li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    background-color : #fafafa;
+}
+
+section {
+    padding: 24px ;
+    border-left : 1px solid #bdbdbd;
+    margin-left: 200px;
+}
+
+section img {
+    float : left;
+    margin-right: 24px;
+    margin-bottom: 14px;
+}
+
+section p {
+    line-height: 160%;
+}
